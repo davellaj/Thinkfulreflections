@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('#one.two div:nth-child(3) + input[type=range]').css("box-shadow", "1px 1px 1px red");
+});
+</script>
+
+<script>
+	$(document).ready(function(){
+	   $("div").hover(function(){
+	       $(this).css("background-color", "yellow");
+	       }, function(){
+	       $(this).css("background-color", "pink");
+	   });
+	});
+</script>
+</head>
+<body>
+
+   <div id="one" class="two">
+       <div>eer</div>
+       <div>ewrnljnwenr</div>
+       <div>mewlrlkmer</div>
+    	<input type="range"></input>
+   </div>
+       
+
+</body>
+</html>
+		
+
+<!-- 		<form>
+			<label>hello</label><br>
+			<input placeholder= "textbox 1"></input><br>
+			<input placeholder="textbox 2"></input><br>
+			<input placeholder="number 1-10" type="range" min="0" max="10"></input>
+		</form> -->
+
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- 	<script type="text/javascript" src="exampleJavascript.js"></script> -->
+
+
+</body>
+</html>
