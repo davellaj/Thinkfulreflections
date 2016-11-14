@@ -159,10 +159,15 @@ D3:
 
   2. What is the role of an API in a modern web app?
   Answer***
-  An API is an Application Program Interface. 
+  An API is an Application Program Interface that uses a standard protocal and subroutines for building software and applications. API's make it easer for developers to use certain techniologies and information in building aplications. In a modern web app, API's allow the developer to use information and technology from other apps so that they don't have to create that content themselves. They can focus on using that content in a new way as well as perfecting their app usage while relying on other apps features without having to understand the technology behind how that app got that data.
 
   3. Write code which makes an AJAX request to log out the most recent Gist posted to GitHub.
 
+  var gitHubUrl = 'https://api.github.com';
+  function getDatafromGitHub(callback){
+    var query = {
 
-
+    }
+  }
+  $.getJSON(gitHubUrl, query, callback));
   }
